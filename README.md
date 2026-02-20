@@ -8,6 +8,8 @@ NutriGen is a web-based application designed to democratize access to advanced n
 3. **AI Meal Planner:** Personalized 1-day meal plans based on your profile and goals.
 4. **Virtual Coach:** Interactive chat for all your nutrition-related queries.
 
+**@LIVE-DEMO:** [NutriGen-Streamlit-App](https://nutrigen-gemini.streamlit.app/)
+
 ## 🛠️ Local Setup Instructions
 
 1. **Install Dependencies:**
