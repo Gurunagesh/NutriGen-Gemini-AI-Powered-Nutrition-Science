@@ -8,7 +8,7 @@ NutriGen is a web-based application designed to democratize access to advanced n
 3. **AI Meal Planner:** Personalized 1-day meal plans based on your profile and goals.
 4. **Virtual Coach:** Interactive chat for all your nutrition-related queries.
 
-## 🛠️ Setup Instructions
+## 🛠️ Local Setup Instructions
 
 1. **Install Dependencies:**
    ```bash
@@ -24,6 +24,21 @@ NutriGen is a web-based application designed to democratize access to advanced n
    ```bash
    streamlit run app.py
    ```
+
+## 🌐 Deployment (Streamlit Cloud)
+
+1. **Push to GitHub:** Ensure your code is pushed to a public or private GitHub repository.
+2. **Connect to Streamlit Cloud:**
+   - Log in to [Streamlit Cloud](https://share.streamlit.io/).
+   - Click "New app" and select your repository, branch, and `app.py`.
+3. **Configure Secrets:**
+   - Go to the app settings in Streamlit Cloud.
+   - Navigate to **"Secrets"**.
+   - Add your API key in the following TOML format:
+     ```toml
+     GOOGLE_API_KEY = "your_actual_gemini_api_key"
+     ```
+4. **Deploy:** Click "Deploy" and your app will be live!
 
 ## 🏗️ Tech Stack
 - **Frontend:** Streamlit

@@ -1,0 +1,27 @@
+# General
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.DS_Store
+
+# Local Agent/AI specific
+.agent/
+.agents/
+.gemini/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+scripts/
+pyvenv.cfg
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
